@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+  
+  
+  <parameter name="key" value="QA InfoTech \n"></parameter>
+    <parameter name="browser" value="firefox"></parameter>
+  
+    <classes>
+     <!--  <class name="trainee.TestDownload"/> -->
+      <class name="trainee.TestSelenium"/>
+     <!--  <class name="trainee.TestCheckbox"/>
+      <class name="trainee.TestDataProvider"/>
+      <class name="trainee.TestMultipleWindows"/>
+      <class name="trainee.TestFrames"/>
+      <class name="trainee.TestDropdown"/> -->
+    </classes>
+  </test> <!-- Test -->
+  
+ <!--  <test name = "chromeTest">
+    <parameter name="key" value="QA InfoTech \n"></parameter>
+  
+  <parameter name="browser" value="chrome"></parameter>
+  <classes>
+  <class name="traniee.TestSelenium"></class>
+  </classes>
+  </test>
+  
+  <test name = "firefoxTest">
+    <parameter name="key" value="QA InfoTech \n"></parameter>
+  
+  <parameter name="browser" value="firefox"></parameter>
+  <classes>
+  <class name="traniee.TestSelenium"></class>
+  </classes>
+  </test> -->
+</suite> <!-- Suite -->

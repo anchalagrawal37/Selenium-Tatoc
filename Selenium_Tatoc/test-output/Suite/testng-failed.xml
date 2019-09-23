@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="browser" value="firefox"/>
+  <parameter name="key" value="QA InfoTech \n"/>
+  <test name="Test(failed)">
+    <parameter name="browser" value="firefox"/>
+    <parameter name="key" value="QA InfoTech \n"/>
+    <classes>
+      <class name="trainee.TestSelenium">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="f"/>
+        </methods>
+      </class> <!-- trainee.TestSelenium -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
